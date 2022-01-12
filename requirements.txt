@@ -1,0 +1,9 @@
+opencv-python
+scikit-image
+pillow
+hdf5storage
+ninja
+ISR
+numpy
+pandas
+tensorflow-gpu==2.5.0
