@@ -16,13 +16,14 @@ I use Python 3.7, pytorch 1.10.0(CUDA 11.3), maybe you need to install in [Pytor
 Download [data](https://drive.google.com/file/d/1GL_Rh1N-WjrvF_-YOKOyvq0zrV6TF4hb/view?usp=sharing)
 and Put data in ```data```
 ## Training
-Run ```sh KAIR/model.sh train``` for starting train
+Run ```cd KAIR``` and ```sh model.sh train``` for starting train
 
-(check the data path is correct in ```KAIR/options/train_swinir_sr_classical.json```)
+(check the data path is correct in ```options/train_swinir_sr_classical.json```)
 ## Inference
-Run ```sh KAIR/model.sh test [your_model.pth]``` 
 
-Inference images will be save in ```KAIR/results```
+Run ```cd KAIR``` and ```sh model.sh test [your_model.pth]``` 
+
+Inference images will be save in ```results```
 ## My model
 You can download my [SwinIR model](https://drive.google.com/file/d/1GUr-rxpzaY3KqfF0vLweKMQu72T_uZQT/view?usp=sharing) and start to infer
 ## Results
