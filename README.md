@@ -24,7 +24,7 @@ Run ```sh KAIR/model.sh test [your_model.pth]```
 
 Inference images will be save in ```KAIR/results```
 ## My model
-You can download my [SwinIR model](https://drive.google.com/file/d/1vABk1ywzSWGuRGrzjRbP-JKzWdfXDyqF/view?usp=sharing) and start to infer
+You can download my [SwinIR model](https://drive.google.com/file/d/1GUr-rxpzaY3KqfF0vLweKMQu72T_uZQT/view?usp=sharing) and start to infer
 ## Results
 |Model|PSNR|
 |---|--|
@@ -32,4 +32,5 @@ You can download my [SwinIR model](https://drive.google.com/file/d/1vABk1ywzSWGu
 |RDN-C4-D12|26.52
 |ESRGAN-C8-D6|26.25
 |ESRGAN-C4-D6|25.81
-|**SwinIR**|**27.81**
+|SwinIR_iter:22000|27.81
+|SwinIR_iter:65000|28.09

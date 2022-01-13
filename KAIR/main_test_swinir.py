@@ -147,7 +147,7 @@ def main():
 def define_model(args):
 
     if args.task == 'classical_sr':
-        model = net(upscale=args.scale, in_chans=3, img_size=64, window_size=8,
+        model = net(upscale=args.scale, in_chans=3, img_size=48, window_size=8,
                     img_range=1., depths=[6, 6, 6, 6, 6, 6], embed_dim=180, num_heads=[6, 6, 6, 6, 6, 6],
                     mlp_ratio=2, upsampler='pixelshuffle', resi_connection='1conv')
         param_key_g = 'params'

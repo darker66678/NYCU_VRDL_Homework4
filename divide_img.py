@@ -32,6 +32,8 @@ for index, hr_img in enumerate(hr_imgs):
                               (i+1), divided_x*j:divided_x*(j+1)]
             cv2.imwrite(
                 f'./data/train/divide_hr/{image_num}.png', divided_img)
+            image_num += 1
+            print(image_num)
 
             '''lr_y = divided_img.shape[0]//3
             lr_x = divided_img.shape[1]//3
@@ -41,8 +43,6 @@ for index, hr_img in enumerate(hr_imgs):
             cv2.imwrite(
                 f'./data/train/divide_lr/{image_num}.png', small_divided_img)'''
 
-            image_num += 1
-            print(image_num)
     '''else:
     for i in range(divide):
         for j in range(divide):
